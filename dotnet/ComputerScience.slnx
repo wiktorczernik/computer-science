@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/ComputerScience.Algorithms/ComputerScience.Algorithms.csproj" />
+  <Project Path="src/ComputerScience.DataStructures/ComputerScience.DataStructures.csproj" />
+  <Project Path="tests/ComputerScience.Algorithms.Tests/ComputerScience.Algorithms.Tests.csproj" />
+  <Project Path="tests/ComputerScience.DataStructures.Tests/ComputerScience.DataStructures.Tests.csproj" />
+</Solution>
