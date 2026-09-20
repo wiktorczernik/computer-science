@@ -1,4 +1,5 @@
 ﻿using ComputerScience.Algorithms.Sorting;
+using ComputerScience.Algorithms.Sorting.InsertionSort;
 
 namespace ComputerScience.Algorithms.Tests.Sorting;
 
@@ -12,6 +13,8 @@ public class SortingTests
 
     [Fact]
     public void BubbleSort() => ShuffledTest<BubbleSorter>();
+    [Fact]
+    public void InsertionSort() => ShuffledTest<InsertionSorter>();
     
     
     private void ShuffledTest<T>() where T : BaseSorter => GenericTest<T>();
