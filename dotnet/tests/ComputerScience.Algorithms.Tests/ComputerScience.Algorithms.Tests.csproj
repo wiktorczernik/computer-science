@@ -18,4 +18,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\ComputerScience.Algorithms\ComputerScience.Algorithms.csproj" />
+    </ItemGroup>
+
 </Project>
